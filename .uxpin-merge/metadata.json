@@ -1,0 +1,1137 @@
+{
+  "categorizedComponents": [
+    {
+      "components": [
+        {
+          "documentation": {
+            "examples": []
+          },
+          "info": {
+            "dirPath": "src/components/AvatarMerge",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/components/AvatarMerge/AvatarMerge.js"
+            },
+            "presets": [
+              {
+                "path": "src/components/AvatarMerge/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "AvatarMerge",
+          "presets": [
+            {
+              "elements": {
+                "avatar659944709": {
+                  "name": "AvatarMerge",
+                  "props": {
+                    "name": "Farrah"
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "avatar659944709"
+            }
+          ],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "source",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "size",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "slim"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "medium"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "large"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "name",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "initials",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "children",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "customer",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": []
+          },
+          "info": {
+            "dirPath": "src/components/ButtonMerge",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/components/ButtonMerge/ButtonMerge.js"
+            },
+            "presets": [
+              {
+                "path": "src/components/ButtonMerge/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "ButtonMerge",
+          "presets": [
+            {
+              "elements": {
+                "button4038267449": {
+                  "name": "ButtonMerge",
+                  "props": {
+                    "children": "Merge!",
+                    "fullWidth": true
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "button4038267449"
+            }
+          ],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "onClick",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "onFocus",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "onBlur",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "children",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "size",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "slim"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "medium"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "large"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "fullWidth",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "url",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "primary",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "disabled",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "plain",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "outline",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "loading",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "external",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "icon",
+              "type": {
+                "name": "node",
+                "structure": {}
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": []
+          },
+          "info": {
+            "dirPath": "src/components/ColorPickerMerge",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/components/ColorPickerMerge/ColorPickerMerge.js"
+            },
+            "presets": [
+              {
+                "path": "src/components/ColorPickerMerge/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "ColorPickerMerge",
+          "presets": [
+            {
+              "elements": {
+                "colorpickermerge3845664916": {
+                  "name": "ColorPickerMerge",
+                  "props": {
+                    "color": {
+                      "alpha": 1,
+                      "brightness": 1,
+                      "hue": 120,
+                      "saturation": 1
+                    }
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "colorpickermerge3845664916"
+            }
+          ],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "allowAlpha",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "color",
+              "type": {
+                "name": "shape",
+                "structure": {
+                  "alpha": {
+                    "name": "number",
+                    "structure": {}
+                  },
+                  "brightness": {
+                    "name": "number",
+                    "structure": {}
+                  },
+                  "hue": {
+                    "name": "number",
+                    "structure": {}
+                  },
+                  "saturation": {
+                    "name": "number",
+                    "structure": {}
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": []
+          },
+          "info": {
+            "dirPath": "src/components/DataTableMerge",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/components/DataTableMerge/DataTableMerge.js"
+            },
+            "presets": [
+              {
+                "path": "src/components/DataTableMerge/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "DataTableMerge",
+          "presets": [
+            {
+              "elements": {
+                "tablemerge710536426": {
+                  "name": "DataTableMerge",
+                  "props": {
+                    "columnContentTypes": [
+                      "text",
+                      "numeric",
+                      "numeric",
+                      "numeric",
+                      "numeric"
+                    ],
+                    "headings": [
+                      "Product",
+                      "Price",
+                      "SKU Number",
+                      "Net quantity",
+                      "Net sales"
+                    ],
+                    "rows": [
+                      [
+                        "Emerald Silk Gown",
+                        "$875.00",
+                        124689,
+                        140,
+                        "$122,500.00"
+                      ],
+                      [
+                        "Mauve Cashmere Scarf",
+                        "$230.00",
+                        124533,
+                        83,
+                        "$19,090.00"
+                      ],
+                      [
+                        "Navy Merino Wool Blazer with khaki chinos and yellow belt",
+                        "$445.00",
+                        124518,
+                        32,
+                        "$14,240.00"
+                      ]
+                    ],
+                    "totals": [
+                      "",
+                      "",
+                      "",
+                      255,
+                      "$155,830.00"
+                    ]
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "tablemerge710536426"
+            }
+          ],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "columnContentTypes",
+              "type": {
+                "name": "typedArray",
+                "structure": {
+                  "memberType": {
+                    "name": "string",
+                    "structure": {}
+                  }
+                }
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "headings",
+              "type": {
+                "name": "typedArray",
+                "structure": {
+                  "memberType": {
+                    "name": "string",
+                    "structure": {}
+                  }
+                }
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "rows",
+              "type": {
+                "name": "array",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "totals",
+              "type": {
+                "name": "array",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "truncate",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": []
+          },
+          "info": {
+            "dirPath": "src/components/DatePickerMerge",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/components/DatePickerMerge/DatePickerMerge.js"
+            },
+            "presets": [
+              {
+                "path": "src/components/DatePickerMerge/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "DatePickerMerge",
+          "presets": [
+            {
+              "elements": {
+                "datepickermerge3845664916": {
+                  "name": "DatePickerMerge",
+                  "props": {}
+                }
+              },
+              "name": "default",
+              "rootId": "datepickermerge3845664916"
+            }
+          ],
+          "properties": []
+        },
+        {
+          "documentation": {
+            "examples": []
+          },
+          "info": {
+            "dirPath": "src/components/IconMerge",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/components/IconMerge/IconMerge.js"
+            },
+            "presets": [
+              {
+                "path": "src/components/IconMerge/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "IconMerge",
+          "presets": [
+            {
+              "elements": {
+                "icon2481402761": {
+                  "name": "IconMerge",
+                  "props": {}
+                }
+              },
+              "name": "default",
+              "rootId": "icon2481402761"
+            }
+          ],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "backdrop",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "color",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "white"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "black"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "skyLighter"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "skyLight"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "sky"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "skyDark"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "inkLightest"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "inkLighter"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "inkLight"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "ink"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "blueLighter"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "blueLight"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "blue"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "blueDark"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "blueDarker"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "indigoLighter"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "indigoLight"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "indigo"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "indigoDark"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "indigoDarker"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "tealLighter"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "tealLight"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "teal"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "tealDark"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "tealDarker"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "greenLighter"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "green"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "greenDark"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "yellowLighter"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "yellow"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "yellowDark"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "yellow"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "orange"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "redLighter"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "red"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "redDark"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "purple"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "source",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "add"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "alert"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "arrowDown"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "arrowLeft"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "arrowRight"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "arrowUp"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "arrowUpDown"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "calendar"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "cancel"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "cancelSmall"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "caretDown"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "caretUp"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "checkmark"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "chevronDown"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "chevronLeft"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "chevronRight"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "chevronUp"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "circleCancel"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "circleChevronDown"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "circleChevronLeft"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "circleChevronRight"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "circleChevronUp"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "circleInformation"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "circlePlus"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "circlePlusOutline"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "conversation"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "delete"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "disable"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "dispute"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "duplicate"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "embed"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "export"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "external"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "help"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "home"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "horizontalDots"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "import"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "logOut"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "notes"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "notification"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "onlineStore"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "orders"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "print"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "products"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "profile"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "refresh"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "risk"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "save"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "search"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "subtract"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "view"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "name": "General"
+    }
+  ],
+  "name": ""
+}

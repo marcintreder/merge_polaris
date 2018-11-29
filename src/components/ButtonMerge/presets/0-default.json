@@ -1,0 +1,12 @@
+{
+  "rootId": "button4038267449",
+  "elements": {
+    "button4038267449": {
+      "name": "ButtonMerge",
+      "props": {
+        "children": "Merge!",
+        "fullWidth": true
+      }
+    }
+  }
+}

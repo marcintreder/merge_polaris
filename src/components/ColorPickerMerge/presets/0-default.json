@@ -1,0 +1,16 @@
+{
+  "rootId": "colorpickermerge3845664916",
+  "elements": {
+    "colorpickermerge3845664916": {
+      "name": "ColorPickerMerge",
+      "props": {
+        "color": {
+          "alpha": 1,
+          "brightness": 1,
+          "hue": 120,
+          "saturation": 1
+        }
+      }
+    }
+  }
+}
